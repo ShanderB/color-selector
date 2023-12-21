@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   colorOptions: string[] = ['#5d77f5', '#0fd085', '#ffba5b', '#f95e62', 'lightpink'];
   initialColor: string = 'black';
+  title = 'color-selector'
 }
